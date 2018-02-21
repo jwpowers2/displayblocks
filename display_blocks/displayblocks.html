@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="displayblocks.css">
+	<title></title>
+</head>
+<body>
+<div id="main_wrapper">
+    <div id="header">
+        <div class="headertile"><img src="github.jpg"></div>
+        <h3>Display Our Blocks!</h3>
+        <div class="headertile"><img src="github.jpg"></div>
+    </div>
+    <div id="content"></div>
+</div>
+</body>
+
+<script type="text/javascript">
+
+    var catDict = {
+    	
+    	1: 'aidorucat',
+    	2: 'catandninja',
+    	3: 'chellocat',
+    	4: 'cherry',
+    	5: 'coder2',
+        6: 'codercat',
+        7: 'cooler',
+        8: 'defunktocat',
+        9: 'dojocat',
+        10: 'domocat',
+        11: 'heisencat',
+        12: 'ironcat'
+    }
+    function createWorld() {
+        
+        var masterArray = [];
+
+        for( var i = 0; i < 5; i++){
+                
+            var subArray = [];
+
+            for(var z = 0; z < 6; z++){
+                // create randint and push to subArray
+                const min = Math.ceil(1);
+                const max = Math.floor(12);
+                var rando = Math.floor(Math.random() * (max - min + 1)) + min;
+                subArray.push(rando);
+            }
+            masterArray.push(subArray);
+
+        }
+        return masterArray;
+    }
+    var content = createWorld();
+
+    function drawWorld() {
+
+        output = "";
+
+        for(var row = 0; row < content.length; row++){
+            output += "<div class = 'row'></div>"
+            for(var x = 0; x < content[row].length; x++){
+                output += "<div class = '" + catDict[
+                content[row][x]] +"'></div>"
+            }
+            output += "</div>"
+        }
+
+        document.getElementById('content').innerHTML = 
+            output;
+    }
+    drawWorld();
+
+        
+
+</script>
+</html>

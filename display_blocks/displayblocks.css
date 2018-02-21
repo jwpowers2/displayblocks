@@ -1,0 +1,163 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+#main_wrapper{
+	background-color: #ccb074;
+	height:820px;
+	width: 800px;
+	margin: 0 auto;
+}
+
+#header{
+	background-color: #ccb074;
+    border: 10px;
+    height: 15%;
+    margin: 0 auto;
+}
+
+#header h3 {
+	display: inline-block;
+	font-size:30px;
+	margin: 0px 0px 20px 0px;
+
+}
+
+.headertile {
+	
+	height: 100px;
+	width: 200px;
+	display: inline-block;
+	margin: 10px 10px 10px 10px;
+	font-size: 20px;
+}
+
+.headertile img {
+	background-size: contain;
+	heigth: 100px;
+	width: 100px;
+	margin: 20px 60px;
+}
+
+#content{
+	
+    border: 10px;
+    height: 80%;
+
+    
+}
+
+.row {
+	line-height: 0;
+}
+.aidorucat{
+    background-image: url('aidorucat.png');
+    background-size:contain;
+    display: inline-block;
+    height: 105px;
+	width: 105px;
+	margin: 10px;
+	border: 2px solid black;
+}
+.catandninja {
+    background-image: url('catandninja.png');
+    background-size:contain;
+    display: inline-block;
+    height: 105px;
+	width: 105px;
+	margin: 10px;
+	border: 2px solid black;
+}
+.chellocat {
+    background-image: url('chellocat.jpg');
+    background-size:contain;
+    display: inline-block;
+    height: 105px;
+	width: 105px;
+	margin: 10px;
+	border: 2px solid black;
+}
+.cherry {
+    background-image: url('cherry.jpg');
+    background-size:contain;
+    display: inline-block;
+    height: 105px;
+	width: 105px;
+	margin: 10px;
+	border: 2px solid black;
+}
+.coder2 {
+    background-image: url('coder2.jpg');
+    background-size:contain;
+    display: inline-block;
+    height: 105px;
+	width: 105px;
+	margin: 10px;
+	border: 2px solid black;
+}
+.codercat{
+    background-image: url('codercat.jpg');
+    background-size:contain;
+    display: inline-block;
+    height: 105px;
+	width: 105px;
+	margin: 10px;
+	border: 2px solid black;
+}
+.cooler{
+    background-image: url('cooler.png');
+    background-size:contain;
+    display: inline-block;
+    height: 105px;
+	width: 105px;
+	margin: 10px;
+	border: 2px solid black;
+}
+
+.defunktocat {
+    background-image: url('defunktocat.png');
+    background-size:contain;
+    display: inline-block;
+    height: 105px;
+	width: 105px;
+	margin: 10px;
+	border: 2px solid black;
+}
+.dojocat{
+    background-image: url('dojocat.jpg');
+    background-size:contain;
+    display: inline-block;
+    height: 105px;
+	width: 105px;
+	margin: 10px;
+	border: 2px solid black;
+}
+.domocat{
+	background-image: url('domo-cat.png');
+	background-size:contain;
+    display: inline-block;
+    height: 105px;
+	width: 105px;
+	margin: 10px;
+	border: 2px solid black;
+}
+.heisencat{
+	background-image: url('heisencat.png');
+	background-size:contain;
+    display: inline-block;
+    height: 105px;
+	width: 105px;
+	margin: 10px;
+	border: 2px solid black;
+}
+.ironcat{
+	background-image: url('ironcat.png');
+	background-size:contain;
+    display: inline-block;
+    height: 105px;
+	width: 105px;
+	margin: 10px;
+	border: 2px solid black;
+}
